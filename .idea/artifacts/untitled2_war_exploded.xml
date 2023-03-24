@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="untitled2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/untitled2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="dome/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dome" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/开发工具/mysql-connector-java-8.0.26.jar" />
+          <element id="file-copy" path="D:/开发工具/standard.jar" />
+          <element id="file-copy" path="D:/开发工具/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSON/JSON/xom-1.0d10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSON/JSON/json-lib-1.1-jdk13.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSON/JSON/ezmorph-1.0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSON/JSON/commons-logging.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSON/JSON/commons-lang-2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSON/JSON/commons-collections-3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSON/JSON/commons-beanutils.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

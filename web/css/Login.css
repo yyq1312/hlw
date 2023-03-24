@@ -1,0 +1,140 @@
+
+/*登录界面*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	user-select:none;
+
+}
+#DIV {
+	width: 1515px;
+	height: 100%;
+	/*背景*/
+}
+
+#bgDiv {
+	width: 1200px;
+	height: 600px;
+	/*登录界面*/
+}
+
+div form {
+	/*登录界面位置*/
+	width: 1200px;
+	position: relative;
+	left: 170px;
+	top: 100px;
+	font-family: 微软雅黑;
+	font-size: 35px;
+}
+
+form fieldset {
+	/*登录界面的高度*/
+	height: 450px;
+}
+
+legend {
+	text-align: center;
+}
+
+#abc01 {
+	width: 594px;
+	height: 70%;
+	margin-top: 30px;
+	font-size: 18px;
+	float: left;
+}
+
+#abc02 {
+	margin-top: 30px;
+	width: 594px;
+	height: 80%;
+	margin-left: 0px;
+	font-size: 18px;
+	float: left;
+	border-left: 1px solid red;
+}
+
+#abcDenglu {
+	width: 250px;
+	height: 18px;
+	margin-left: 90px;
+	margin-top: 20px;
+}
+
+#abcDenglu a {
+	text-decoration: none;
+	color: #5F6365;
+}
+
+#abcDenglu a:hover{
+	color:#3C3C3C;
+}
+
+#YanZheng {
+	width: 400px;
+	height: 200px;
+	margin-left: 90px;
+	margin-top: 20px;
+	line-height: 60px;
+}
+
+input {
+	outline: none;
+	width: 200px;
+	height: 25px;
+}
+
+input[type=button] {
+	margin-left: 35px;
+	width: 200px;
+	height: 38px;
+}
+
+input[type=submit] {
+	margin-left: 35px;
+	width: 200px;
+	height: 38px;
+}
+
+input[type=reset] {
+	margin-left: 35px;
+	width: 55px;
+	height: 23px;
+}
+
+#abc01 img {
+	/*二维码*/
+	margin-left: 230px;
+	margin-top: 30px;
+}
+
+.input-val {
+	width: 200px;
+	height: 32px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+#canvas {
+	vertical-align: middle;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+
+.btn {
+	background-color: #86ce2f;
+	color: #ffffff;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+}
+
+.ZheChe{
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none;
+}
